@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+.up .left{
+    padding: 2.5rem;
+    background: url(./photos/glass_violet.png); 
+    background-size: cover;
+}
+.left p{
+    margin-top: 1.5rem;
+}
+.left h1 span{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.left p{
+    color: lightblue;
+}
+.right{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background: url(./photos/glass_violet.png);
+    background-size: cover;
+}
+.right img{
+    height: auto;
+    width: 100%;
+}
+.down{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.down img{
+    height: 30px;
+    width: 30px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down .box button{
+    border: none;
+    padding: 0.8rem;
+    background-color: rgb(208, 105, 245);
+}
+.box{
+    padding: 1.5rem;
+    border: 1px solid  rgb(208, 105, 245);
+}
+/* last section */
+.first{
+    background: url(./photos/glass_yellow.png);
+    background-size: cover;
+}
+.first span{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding-top: 4rem;
+}
+ .first .image{
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    /* background: url(./photos/glass_yellow.png);
+    background-size: cover; */
+}
+.next .first img{
+    width: 100%;
+    height: auto;
+}
+/* form styling */
+.second form{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 3px solid greenyellow; 
+}
+.second input,textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+#sub_button{
+    background-color: rgba(166, 236, 15, 0.884);
+    color: white;
+    padding: 0.1rem;
+    font-size: 1rem;
+    width: 100%;
+}
