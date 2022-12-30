@@ -2,41 +2,22 @@
     margin:0;
     padding:0;
 }
-@media (max-width:600px) {
-    
+/* Applied for both views */
+.down img{
+    height: 30px;
+    width: 30px;
+}
 .up .left{
     padding: 2.5rem;
     background: url(./photos/glass_violet.png); 
     background-size: cover;
 }
-.left p{
-    margin-top: 1.5rem;
-}
-.left h1 span{
-    font-size: 3rem;
-    color: whitesmoke;
-}
-.left p{
-    color: lightblue;
-}
-.right{
-    height: 50vh;
+.up .right{
     display: flex;
     align-items: center;
+    text-align: center;
     background: url(./photos/glass_violet.png);
     background-size: cover;
-}
-.right img{
-    height: auto;
-    width: 100%;
-}
-.down{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.down img{
-    height: 30px;
-    width: 30px;
 }
 .box1{
     display: flex;
@@ -52,34 +33,13 @@
     padding: 1.5rem;
     border: 1px solid  rgb(208, 105, 245);
 }
-/* last section */
 .first{
     background: url(./photos/glass_yellow.png);
     background-size: cover;
 }
-.first span{
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    display: block;
-    padding-top: 4rem;
-}
- .first .image{
-    display: flex;
-    height: 50vh;
-    text-align: center;
-    align-items: center;
-    /* background: url(./photos/glass_yellow.png);
-    background-size: cover; */
-}
-.next .first img{
-    width: 100%;
-    height: auto;
-}
-/* form styling */
 .second form{
     margin-top: 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
     border: 3px solid greenyellow; 
 }
 .second input,textarea{
@@ -93,4 +53,99 @@
     font-size: 1rem;
     width: 100%;
 }
+@media (max-width:600px) {
+    
+
+.left p{
+    margin-top: 1.5rem;
+}
+.left h1 span{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.left p{
+    color: lightblue;
+}
+
+.right img{
+    height: auto;
+    width: 100%;
+}
+.down{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.first span{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding-top: 4rem;
+}
+ .first .image{
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    
+}
+.next .first img{
+    width: 100%;
+    height: auto;
+}
+
+}
+@media (min-width:601px){
+    .up .left{
+        padding: 2.5rem;
+        background: url(./photos/glass_violet.png); 
+        background-size: cover;
+    }
+    .up .right{
+        display: flex;
+        align-items: center;
+        background: url(./photos/glass_violet.png);
+        background-size: cover;
+    }
+    .up{
+        display: flex;
+        height: 80vh;
+    }
+    .down{
+        display: flex;
+        height: 19.5vh;
+    }
+    .box{
+        width: 500px;
+    }
+    .left p{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .next{
+        display: flex;
+        height: 100vh;
+    }
+    .next .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .first span{
+        display: block;
+        font-size: 50px;
+        color:azure;
+
+    }
+    .next .second{
+        width: 100%;
+        background: url(./photos/glass_yellow.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
