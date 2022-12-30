@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
 }
+@media screen(min-width:600px) {
+    
 .up .left{
     padding: 2.5rem;
     background: url(./photos/glass_violet.png); 
@@ -90,4 +92,5 @@
     padding: 0.1rem;
     font-size: 1rem;
     width: 100%;
+}
 }
